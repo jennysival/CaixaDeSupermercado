@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem_16">16dp</dimen>
+    <dimen name="largura_125">125dp</dimen>
+    <dimen name="altura_125">125dp</dimen>
+</resources>

@@ -6,13 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <ImageView
+        android:id="@+id/imagem_carrinho"
+        android:layout_width="@dimen/largura_125"
+        android:layout_height="@dimen/altura_125"
+        android:layout_margin="@dimen/margem_16"
+        android:src="@drawable/carrinho"
+        app:layout_constraintBottom_toTopOf="@id/ed_nome"
+        app:layout_constraintEnd_toStartOf="@id/tv_descricao"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_descricao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margem_16"
+        android:text="@string/texto_descricao_app"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/ed_nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagem_carrinho"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/ed_nome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/margem_16"
+        android:hint="Nome do produto"
+        app:layout_constraintTop_toBottomOf="@id/imagem_carrinho"/>
+
+    <EditText
+        android:id="@+id/ed_qtd"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/margem_16"
+        android:hint="Quantidade do produto"
+        app:layout_constraintTop_toBottomOf="@id/ed_nome"/>
+
+    <EditText
+        android:id="@+id/ed_valor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/margem_16"
+        android:hint="Valor(unitário) do produto"
+        app:layout_constraintTop_toBottomOf="@id/ed_qtd"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margem_16"
+        app:layout_constraintTop_toBottomOf="@id/ed_valor"
+        android:text="Calcular"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
