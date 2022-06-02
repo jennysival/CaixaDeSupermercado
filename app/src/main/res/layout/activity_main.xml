@@ -52,7 +52,7 @@
         android:layout_height="@dimen/altura_48"
         android:layout_margin="@dimen/margem_16"
         android:hint="@string/hint_qtd_produto"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:importantForAutofill="no"
         app:layout_constraintTop_toBottomOf="@id/ed_nome"
         app:layout_constraintStart_toStartOf="parent"
