@@ -5,4 +5,7 @@
     <string name="hint_qtd_produto">Quantidade do produto</string>
     <string name="hint_valor_produto">Valor(unitário) do produto</string>
     <string name="texto_botao_calcular">Calcular</string>
+    <string name="Descricao_imagem_carrinho">Desenho de um carrinho de supermercado vermelho com detalhes pretos</string>
+    <string name="texto_valor_total">O valor total é de: R$ 00,00</string>
+    <string name="texto_botao_refazer">Refazer compra</string>
 </resources>

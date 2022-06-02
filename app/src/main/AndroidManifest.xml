@@ -14,6 +14,9 @@
         android:theme="@style/Theme.CaixaDeSupermercado"
         tools:targetApi="31">
         <activity
+            android:name=".DetalheCompra"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

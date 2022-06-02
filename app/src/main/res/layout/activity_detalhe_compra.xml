@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheCompra">
+
+    <ImageView
+        android:id="@+id/carrinho_detalhe"
+        android:layout_width="@dimen/largura_125"
+        android:layout_height="@dimen/altura_125"
+        android:src="@drawable/carrinho"
+        android:contentDescription="@string/Descricao_imagem_carrinho"
+        android:layout_marginTop="@dimen/margem_100"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_valorTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_valor_total"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamanho_fonte_16"
+        android:layout_marginTop="@dimen/margem_16"
+        app:layout_constraintTop_toBottomOf="@+id/carrinho_detalhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margem_50"
+        android:layout_marginBottom="@dimen/margem_16"
+        android:layout_marginHorizontal="@dimen/margem_16"
+        app:layout_constraintTop_toBottomOf="@id/tv_valorTotal"
+        android:text="@string/texto_botao_refazer"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/vermelho_F2451E"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

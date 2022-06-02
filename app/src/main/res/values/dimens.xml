@@ -7,4 +7,6 @@
     <dimen name="largura_0">0dp</dimen>
     <dimen name="tamanho_fonte_12">12sp</dimen>
     <dimen name="altura_48">48dp</dimen>
+    <dimen name="margem_100">100dp</dimen>
+    <dimen name="tamanho_fonte_16">16sp</dimen>
 </resources>
