@@ -3,4 +3,8 @@
     <dimen name="margem_16">16dp</dimen>
     <dimen name="largura_125">125dp</dimen>
     <dimen name="altura_125">125dp</dimen>
+    <dimen name="margem_50">50dp</dimen>
+    <dimen name="largura_0">0dp</dimen>
+    <dimen name="tamanho_fonte_12">12sp</dimen>
+    <dimen name="altura_48">48dp</dimen>
 </resources>
