@@ -4,14 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import br.com.zup.caixadesupermercado.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private val editTextNomeProduto: EditText by lazy { findViewById(R.id.ed_nome) }
-    private val editTextQtd: EditText by lazy { findViewById(R.id.ed_qtd) }
-    private val editTextValor: EditText by lazy { findViewById(R.id.ed_valor) }
     private val botaoCalcularValor: Button by lazy { findViewById(R.id.botao_calcular) }
 
     private lateinit var binding: ActivityMainBinding
