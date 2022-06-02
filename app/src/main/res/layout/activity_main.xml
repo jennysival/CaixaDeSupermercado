@@ -41,6 +41,7 @@
         android:layout_marginHorizontal="@dimen/margem_16"
         android:hint="@string/hint_Nome_do_produto"
         android:inputType="text"
+        android:importantForAutofill="no"
         app:layout_constraintTop_toBottomOf="@id/imagem_carrinho"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -52,6 +53,7 @@
         android:layout_margin="@dimen/margem_16"
         android:hint="@string/hint_qtd_produto"
         android:inputType="text"
+        android:importantForAutofill="no"
         app:layout_constraintTop_toBottomOf="@id/ed_nome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -63,6 +65,7 @@
         android:layout_margin="@dimen/margem_16"
         android:hint="@string/hint_valor_produto"
         android:inputType="numberDecimal"
+        android:importantForAutofill="no"
         app:layout_constraintTop_toBottomOf="@id/ed_qtd"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
